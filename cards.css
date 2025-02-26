@@ -17,6 +17,7 @@ h1 {
 	font-size: 5.25vmin;
 	text-align: center;
 	color: white;
+	text-shadow: 1.5px 1.5px red;
 }
 p {
 	font-size: max(10pt, 2.5vmin);
@@ -70,7 +71,7 @@ p {
 	right: 0;
 	width: 60vmin;
 	height: 100%;
-	background-image: url("/imgs/babytrumo.jpg");
+	background-image: url("/imgs/trumpbabytitle.jpg");
 	background-size: cover;
 	transition: 0.3s ease-in-out;
 	/* border: 1px solid green; */
