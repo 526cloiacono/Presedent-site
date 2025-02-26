@@ -66,6 +66,8 @@ body{
   background-size: cover;
   background-position: fixed;
   border-radius: 20px 20px;
+  margin-bottom: 100px;
+  padding: 30px;
 }
 
 .dear,.mr {
@@ -73,4 +75,19 @@ body{
   font-weight: 400px;
   font-size: 50px;
   font-family: "sloop-script-one", sans-serif;
+}
+.from , .name{
+  color: blue;
+  font-weight: 400px;
+  font-size: 50px;
+  font-family: "sloop-script-one", sans-serif;
+  text-align: right;
+}
+
+.info{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-right: 85px;
+  margin-left: 85px;
+  font-size: 40px;
 }
