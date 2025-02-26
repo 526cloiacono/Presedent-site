@@ -25,7 +25,7 @@ document.querySelectorAll(".nav-item").forEach(item => {
 'It is interesting to learn about the responsibilities of a president and how decisions are made. I know that leading a country is not easy, and it takes a lot of hard work. I hope you continue to do your best for the American people.'
 	]
 	var randomNumber = Math.floor(Math.random() * quotesArray.length);
-	document.getElementById('press-quote').textContent = quotesArray [randomNumber].split(' — ')[0]  + quotesArray[randomNumber].split('—')[1];
+	document.getElementById('press-quote').textContent = quotesArray [randomNumber];
 
 
   //start of name
