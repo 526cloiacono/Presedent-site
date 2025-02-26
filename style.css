@@ -59,7 +59,7 @@ body{
   text-align: center;
   margin-top: 10px;
 }  
-
+/* start of letter */
 .letter{
   background-image: url(/imgs/letter.jpg);
   background-repeat: no-repeat;
@@ -74,13 +74,13 @@ margin-top: 45px;
 .dear,.mr {
   color: blue;
   font-weight: 400px;
-  font-size: 50px;
+  font-size: 60px;
   font-family: "sloop-script-one", sans-serif;
 }
 .from , .name{
   color: blue;
   font-weight: 400px;
-  font-size: 50px;
+  font-size: 60px;
   font-family: "sloop-script-one", sans-serif;
   text-align: right;
 }
@@ -90,5 +90,55 @@ margin-top: 45px;
   text-align: center;
   margin-right: 85px;
   margin-left: 85px;
-  font-size: 35px;
+  font-size: 32px;
 }
+
+
+
+
+
+/* caareeer cards start */
+p{
+  color: blue;
+  font-size: 25px;
+}
+.words{
+  border-radius: 25px;
+  padding: 15px;
+}
+.his{
+  border-radius: 25px;
+  border: 7px solid grey;
+}
+.card-body{
+  background-color: grey;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+.card {
+  max-height: 100%;
+}
+.card-title{
+  color: Red;
+  font-size: 20px;
+  text-align: center;
+}
+span{
+  color: blue;
+  background-color: red;
+  border-radius: 5px;
+}
+span:hover{
+  background-color:blue ;
+  color: red;
+}
+button{
+  text-align: center;
+  background-color: red;
+  color:blue;
+}
+.card-body{
+  height: 400px;
+}
+
