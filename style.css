@@ -78,6 +78,7 @@ margin-top: 45px;
   font-weight: 400px;
   font-size: 60px;
   font-family: "sloop-script-one", sans-serif;
+  position: relative; /* Needed for absolute positioning inside */
 }
 .from , .name{
   color: blue;
@@ -96,9 +97,16 @@ margin-top: 45px;
 }
 
 
-.stamp{
-  text-align: right;
+.stamp {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px; 
+  height: 119px; 
+  background-image: url('/imgs/goodstamp.jpg');
+  background-size: cover;
 }
+
 
 
 /* caareeer cards start */
