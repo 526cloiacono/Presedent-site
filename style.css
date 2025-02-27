@@ -115,14 +115,12 @@ p{
 }
 .card-body{
   background-color: grey;
-  margin-left: 20px;
-  margin-right: 20px;
   text-align: center;
- 
   height: 150px;
 }
 .card {
   max-height: 100%;
+  margin-bottom: 50px;
 }
 .card-title{
   color: Red;
@@ -142,6 +140,7 @@ button{
   text-align: center;
   background-color: red;
   color:blue;
+  border-color: blue;
 }
 .card-body{
   height: 400px;
