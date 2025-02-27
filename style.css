@@ -1,8 +1,8 @@
   .navbar {
-  background: blue;
+  background: red;
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 5px 15px red;
+  box-shadow: 0 10px 17px blue;
   padding-top: 15px;
   padding-bottom: 15px;
   margin-left: 300px;
@@ -37,8 +37,9 @@
 
 .nav-link:hover {
   transform: translateY(-5px) scale(1.1);
-  box-shadow: 0px 8px 15px red;
+  box-shadow: 0px 8px 15px blue;
   color: white;
+  border-radius: 25px;
 }
 
 body{
@@ -53,8 +54,8 @@ body{
 }
 
 .title{
-  text-shadow: 3px 3px red;
-  color: blue;
+  text-shadow: 4px 4px blue;
+  color: red;
   font-size: 180px;
   text-align: center;
   margin-top: 10px;
@@ -144,4 +145,14 @@ button{
 }
 .card-body{
   height: 400px;
+}
+
+
+/* background */
+
+
+.home{
+  background-image: url(/imgs/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
