@@ -94,7 +94,9 @@ margin-top: 45px;
 }
 
 
-
+.stamp{
+  text-align: right;
+}
 
 
 /* caareeer cards start */
@@ -141,4 +143,3 @@ button{
 .card-body{
   height: 400px;
 }
-
