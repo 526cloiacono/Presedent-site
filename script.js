@@ -38,3 +38,25 @@ let greeting = document.getElementById('greeting')
 
 userName ? document.getElementById('greeting').innerText=`${userName}!` 
 : document.getElementById('greeting').innerText='Anonymous!'
+
+
+
+// Fun Fact Generator
+function generateFunFact() {
+  var funFacts = [
+      "Donald Trump has a star on the Hollywood Walk of Fame, awarded in 2007 for his work on 'The Apprentice.'",
+      "Trump once owned the New Jersey Generals, a team in the short-lived USFL (United States Football League).",
+      "He was the first president to have ever made a cameo in the WWE and is in their Hall of Fame.",
+      "Trump appeared in the movie 'Home Alone 2: Lost in New York' in a brief scene at the Plaza Hotel.",
+      "He was a producer and host of the reality TV show 'The Apprentice,' which ran for over a decade.",
+      "Trump has owned several beauty pageants, including Miss Universe and Miss USA.",
+      "His favorite fast food meal reportedly includes McDonald's Big Mac, Filet-O-Fish, and a chocolate shake.",
+      "Trump has a collection of golf courses worldwide and is an avid golfer.",
+      "He has a well-documented fear of shaking hands and is known to use hand sanitizer frequently.",
+      "Trump has written several books, including 'The Art of the Deal,' which became a bestseller."
+  ];
+
+  var randomIndex = Math.floor(Math.random() * funFacts.length);
+  document.getElementById("funFact").textContent = funFacts[randomIndex];
+}
+
