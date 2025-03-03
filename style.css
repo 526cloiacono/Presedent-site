@@ -19,7 +19,6 @@
 
 .navbar-nav {
   display: flex;
-  flex-direction: row;
   gap: 20px;
   list-style: none;
   padding: 0;
@@ -164,4 +163,15 @@ button{
   background-image: url(/imgs/home.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.facts{
+  background-color: red;
+  border-radius: 25px;
+  box-shadow: 0 10px 17px blue;
+  padding: 25px;
+  color: white;
+}
+
+.fact{
+  color: white;
 }
